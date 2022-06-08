@@ -16,8 +16,7 @@ Once the dataset has been Extracted, Transformed, and Loaded, Britta would like 
 The focus of this assignment was to create a function that extracts, transforms, and loads data files into a SQL databse. This was accomplished by 
 
 1. Importing our CSV & JSON files into DataFrames
-2. Cleaning up the DataFrames by removing any unnecessary columns / rows
-3. Reordering and renaming columns for ease of readibility
+2. Cleaning up the DataFrames by removing unnecessary columns / rows and reordering & renaming columns for ease of readibility
 4. Using regular expressions to extract any necessary data
 5. Merging our data into one dataset
 6. Exporting our dataset into a PostgreSQL table
@@ -27,5 +26,3 @@ The two tables we exported into SQL were the _movies_ table and the _ratings_ ta
 <img width="337" alt="movies_query" src="https://user-images.githubusercontent.com/101564349/172661224-ee558ce1-34a8-4c78-bfc4-b3ce33dcc2bf.png">
 
 <img width="342" alt="ratings_query" src="https://user-images.githubusercontent.com/101564349/172661433-b74cfcd1-2f5a-458b-abd8-12d9f2dfe1f4.png">
-
-
